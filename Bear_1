@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>DIFFERENT TYPES OF BEARS!!!</h1>
+    <h3>Select from a bear below to get more info on that particular bear!</h3>
+    <div class="flex-container">
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://cdn.britannica.com/12/232812-050-918C866F/Sun-bear-Helarctos-malayanus-tongue.jpg"
+            style="width: 100%"
+          />
+          <h2>SUN BEAR</h2>
+        </div>
+        <div>
+          <div class="column">
+            <img
+              src="https://www.nps.gov/lacl/learn/nature/images/Image-w-cred-cap_-1200w-_-Brown-Bear-page_-brown-bear-in-fog_2.jpg?maxwidth=1300&maxheight=1300&autorotate=false"
+              style="width: 100%"
+            />
+            <h2>GRIZZLY BEAR</h2>
+          </div>
+          <div></div>
+          <div class="column">
+            <img
+              src="https://bloximages.newyork1.vip.townnews.com/valpotorch.com/content/tncms/assets/v3/editorial/3/4b/34b39260-c783-11ec-9097-f3d860fdf9c7/626b82e91b1c1.image.jpg?resize=400%2C252"
+              style="width: 100%"
+            />
+            <h2>POLAR BEAR</h2>
+          </div>
+          <div>
+            <div class="column">
+              <img
+                src="https://cdn.britannica.com/87/206387-050-5D4E6F03/giant-panda-ailuropoda-melanoleuca-china.jpg"
+                style="width: 100%"
+              />
+              <h2>GIANT PANDA</h2>
+            </div>
+            <div>
+              <div class="column">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG"
+                  style="width: 100%"
+                />
+                <h2>ASIAN BLACK BEAR</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
