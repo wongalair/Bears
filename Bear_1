@@ -54,30 +54,3 @@
     </div>
   </body>
 </html>
-             style="width: 100%"
-            />
-            <h2>POLAR BEAR</h2>
-          </div>
-          <div>
-            <div class="column">
-              <img
-                src="https://cdn.britannica.com/87/206387-050-5D4E6F03/giant-panda-ailuropoda-melanoleuca-china.jpg"
-                style="width: 100%"
-              />
-              <h2>GIANT PANDA</h2>
-            </div>
-            <div>
-              <div class="column">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Ursus_thibetanus_3_%28Wroclaw_zoo%29.JPG"
-                  style="width: 100%"
-                />
-                <h2>ASIAN BLACK BEAR</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
