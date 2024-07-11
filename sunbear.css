@@ -1,0 +1,158 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 5px solid black;
+}
+
+body {
+  background: #964B00;
+}
+
+.container {
+  word-wrap: break-word;
+  display: block;
+  position: fixed;
+  width: 50%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+p {
+display: block;
+  text-align: center; /* Center-align the text */
+  position: relative;
+  top: 80%; /* Position the text vertically in the middle */
+  left: 98%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 48%;
+  margin-right: auto;
+}
+
+.container .claws {
+  position: fixed;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .legs {
+  position: fixed;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .mouth {
+  position: fixed;
+  top: 49%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .body {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .snout {
+  position: fixed;
+  top: 40%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .home {
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .claws:hover {
+  background-color: black;
+  border: 2px solid #555555;
+}
+.container .legs:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
+.container .mouth:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
+.container .body:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
+.container .snout:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
