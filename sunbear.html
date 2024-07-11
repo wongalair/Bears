@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUN BEAR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>SUN BEAR</h1>
+    <div class="container">
+      <img
+        src="https://t4.ftcdn.net/jpg/01/37/36/33/360_F_137363303_Or8au0umL3JuWuyo6DwMW3XA1voSXdfm.jpg"
+        alt="Sun Bear"
+      />
+      <p id="description"></p>
+      <button class="claws" onclick="updateDescription('Text for Claws')">
+        Claws
+      </button>
+      <button class="legs" onclick="updateDescription('Text for Legs')">
+        Legs
+      </button>
+      <button class="mouth" onclick="updateDescription('Text for Mouth')">
+        Mouth
+      </button>
+      <button class="body" onclick="updateDescription('Text for Body')">
+        Body
+      </button>
+      <button class="snout" onclick="updateDescription('Text for Snout')">
+        Snout
+      </button>
+     <a href="https://kind-walnut-cinema.glitch.me/"> <button
+        class = "home" > Home
+      </button>
+      </a>
+    </div>
+    <script>
+      function updateDescription(text) {
+        document.getElementById("description").innerHTML = text;
+      }
+    </script>
+  </body>
+</html>
