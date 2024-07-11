@@ -7,13 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      GRIZZLY BEAR
-    </h1>
+    <h1>GRIZZLY BEAR</h1>
     <div class="container">
+      <img
+        src="https://i.pinimg.com/originals/4b/9a/5f/4b9a5f3c9790e052a19a7147841f74f3.jpg"
+        alt="Grizzly Bear"
+      />
+      <p id="description"></p>
+      <button class="claws" onclick="updateDescription('Text for claws')">
+        Claws
+      </button>
+      <button class="legs" onclick="updateDescription('Text for legs')">
+        Legs
+      </button>
+      <button class="mouth" onclick="updateDescription('Text for mouth')">
+        Mouth
+      </button>
+      <button class="body" onclick="updateDescription('Text for body')">
+        Body
+      </button>
+      <button class="snout" onclick="updateDescription('Text for snout')">
+        Snout
+      </button>
       <a href="https://kind-walnut-cinema.glitch.me/">
         <button class="home">Home</button>
       </a>
     </div>
+    <script>
+      function updateDescription(text) {
+        document.getElementById("description").innerHTML = text;
+      }
+    </script>
   </body>
 </html>
