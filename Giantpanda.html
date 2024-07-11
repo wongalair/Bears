@@ -3,17 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GRIZZLY BEAR</title>
+    <title>GIANT PANDA</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      GIANT PANDA
-    </h1>
+    <h1>Giant Panda</h1>
     <div class="container">
+      <img
+         src="https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2016/11/panda-walk.jpg"
+        alt="Giant Panda"
+      />
+      <p id="description"></p>
+      <button class="claws" onclick="updateDescription('Text for claws')">
+        Claws
+      </button>
+      <button class="legs" onclick="updateDescription('Text for legs')">
+        Legs
+      </button>
+      <button class="mouth" onclick="updateDescription('Text for mouth')">
+        Mouth
+      </button>
+      <button class="body" onclick="updateDescription('Text for body')">
+        Body
+      </button>
+      <button class="snout" onclick="updateDescription('Text for snout')">
+        Snout
+      </button>
       <a href="https://kind-walnut-cinema.glitch.me/">
         <button class="home">Home</button>
       </a>
     </div>
+    <script>
+      function updateDescription(text) {
+        document.getElementById("description").innerHTML = text;
+      }
+    </script>
   </body>
 </html>
