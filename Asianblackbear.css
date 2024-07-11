@@ -1,0 +1,14 @@
+.container .home {
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
