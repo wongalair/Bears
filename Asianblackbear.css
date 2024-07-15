@@ -1,14 +1,156 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 5px solid black;
+}
+
+body {
+  background: #654321;
+}
+.container {
+  word-wrap: break-word;
+  display: block;
+  width: 50%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+p {
+display: block;
+  position: absolute;
+  text-align: center; 
+  top: 80%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .claws {
+  position: fixed;
+  top: 63%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .legs {
+  position: fixed;
+  top: 57%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .mouth {
+  position: fixed;
+  top: 46%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .body {
+  position: fixed;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.container .snout {
+  position: fixed;
+  top: 35%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
 .container .home {
   position: fixed;
   top: 3%;
   left: 3%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   color: black;
   font-size: 16px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   border: 2px solid black;
+}
+
+.container .claws:hover {
+  background-color: black;
+  border: 2px solid #555555;
+}
+.container .legs:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
+.container .mouth:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
+.container .body:hover {
+  background-color: black;
+    border: 2px solid #555555;
+}
+.container .snout:hover {
+  background-color: black;
+    border: 2px solid #555555;
 }

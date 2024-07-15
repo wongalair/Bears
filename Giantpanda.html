@@ -3,17 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GRIZZLY BEAR</title>
+    <title>GIANT PANDA</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      GIANT PANDA
-    </h1>
+    <h1>Giant Panda</h1>
     <div class="container">
+      <img
+         src="https://good-nature-blog-uploads.s3.amazonaws.com/uploads/2016/11/panda-walk.jpg"
+        alt="Giant Panda"
+      />
+      <p id="description"></p>
+      <button class="claws" onclick="updateDescription('Giant pandas have semi-retractable claws and five fingers and a false thumb, which are used for climbing and eating bamboo stems')">
+        Claws
+      </button>
+      <button class="legs" onclick="updateDescription('Pandas have strong legs that allow them to climb trees as well as balance on their hind legs')">
+        Legs
+      </button>
+      <button class="mouth" onclick="updateDescription('Pandas have 42 teeth and are able to crush bamboo culms in a single bite, they have large, flat molars that help crush the bamboo')">
+        Mouth
+      </button>
+      <button class="body" onclick="updateDescription('Male pandas can weigh up to 350 lbs and females can weigh up to 280 lbs, they can grow up to 6 feet long')">
+        Body
+      </button>
+      <button class="snout" onclick="updateDescription('Pandas have short, black snouts and strong noses that allow them to communciate with each other via smell')">
+        Snout
+      </button>
       <a href="https://kind-walnut-cinema.glitch.me/">
         <button class="home">Home</button>
       </a>
     </div>
+    <script>
+      function updateDescription(text) {
+        document.getElementById("description").innerHTML = text;
+      }
+    </script>
   </body>
 </html>

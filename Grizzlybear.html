@@ -7,13 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      GRIZZLY BEAR
-    </h1>
+    <h1>GRIZZLY BEAR</h1>
     <div class="container">
+      <img
+        src="https://i.pinimg.com/originals/4b/9a/5f/4b9a5f3c9790e052a19a7147841f74f3.jpg"
+        alt="Grizzly Bear"
+      />
+      <p id="description"></p>
+      <button class="claws" onclick="updateDescription('Grizzly bears have 2 inch claws that grow up to 4 inches, allowing them to dig up roots, excavate dens, and tear apart rotten logs')">
+        Claws
+      </button>
+      <button class="legs" onclick="updateDescription('Strong legs allows the grizzly bear to lift up to 500 kg and run up to 35 mph')">
+        Legs
+      </button>
+      <button class="mouth" onclick="updateDescription('Grizzly bears have teeth that grow up to 2 inches long, which allow them to fulfill their omnivore diet by consuming berries, small animals, and hoofed animals')">
+        Mouth
+      </button>
+      <button class="body" onclick="updateDescription('Adult male grizzlies weigh up to 600 lbs and and females weigh up to 450 lbs, the large shoulder hump that grizzlies have contribute to their overall strength')">
+        Body
+      </button>
+      <button class="snout" onclick="updateDescription('Grizzly bear snouts are over 2100 times stronger than a human nose, it is used for hunting and for communication through scent marking on trees')">
+        Snout
+      </button>
       <a href="https://kind-walnut-cinema.glitch.me/">
         <button class="home">Home</button>
       </a>
     </div>
+    <script>
+      function updateDescription(text) {
+        document.getElementById("description").innerHTML = text;
+      }
+    </script>
   </body>
 </html>

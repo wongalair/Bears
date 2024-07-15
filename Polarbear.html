@@ -3,17 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GRIZZLY BEAR</title>
+    <title>POLAR BEAR</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>
-      POLAR BEAR
-    </h1>
+    <h1>POLAR BEAR</h1>
     <div class="container">
+      <img
+        src="https://loe.org/content/2017-07-14/MSL-Standing-Bear-Makes-eye-contact-with-every-person-on-the-deck-above-her-7039.jpg"
+        alt="Polar Bear"
+      />
+      <p id="description"></p>
+      <button class="claws" onclick="updateDescription('Polar bear claws grow up to 3.75 inches, their feet are 12 inches wide and have rough padding, allowing them to have traction and spread out weight on ice')">
+        Claws
+      </button>
+      <button class="legs" onclick="updateDescription('Although polar bears have relatively short legs, this adaptation allows them to move efficiently on ice and retain body warmth while also being able to run up to 25 mph')">
+        Legs
+      </button>
+      <button class="mouth" onclick="updateDescription('Polar bears have sharp back molars and large front canines that allow them to tear through thick blubber and flesh')">
+        Mouth
+      </button>
+      <button class="body" onclick="updateDescription('Adult male polar bears weigh up to 1000 lbs and females weigh up to 550 lbs, their thick, white fur allow them to camouflage and stay warm')">
+        Body
+      </button>
+      <button class="snout" onclick="updateDescription('The polar bear snout is longer than other bears so that air is warmed up before it enters their lungs')">
+        Snout
+      </button>
       <a href="https://kind-walnut-cinema.glitch.me/">
         <button class="home">Home</button>
       </a>
     </div>
+    <script>
+      function updateDescription(text) {
+        document.getElementById("description").innerHTML = text;
+      }
+    </script>
   </body>
 </html>
