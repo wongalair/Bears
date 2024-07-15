@@ -25,7 +25,7 @@ p {
 display: block;
   position: absolute;
   text-align: center; 
-  top: 80%; 
+  top: 65%; 
   left: 50%; 
   transform: translate(-50%, -50%);
   font-size: 20px;
@@ -41,8 +41,8 @@ display: block;
 
 .container .claws {
   position: fixed;
-  top: 60%;
-  left: 30%;
+  top: 55%;
+  left: 40%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
@@ -58,7 +58,7 @@ display: block;
 .container .legs {
   position: fixed;
   top: 50%;
-  left: 52%;
+  left: 65%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
@@ -74,7 +74,7 @@ display: block;
 .container .mouth {
   position: fixed;
   top: 47%;
-  left: 70%;
+  left: 31%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
@@ -106,7 +106,7 @@ display: block;
 .container .snout {
   position: fixed;
   top: 35%;
-  left: 71%;
+  left: 31%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
