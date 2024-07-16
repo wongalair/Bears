@@ -17,16 +17,16 @@ body {
   word-wrap: break-word;
   display: block;
   width: 50%;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
 p {
-display: block;
+  display: block;
   position: absolute;
-  text-align: center; 
-  top: 80%; 
-  left: 50%; 
+  text-align: center;
+  top: 80%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
 }
@@ -40,10 +40,9 @@ display: block;
 }
 
 .container .claws {
-  position: fixed;
-  top: 63%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 35%;
+  transform: translate(-50%, -180%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -56,10 +55,9 @@ display: block;
 }
 
 .container .legs {
-  position: fixed;
-  top: 57%;
+  position: relative;
   left: 62%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -270%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -72,10 +70,9 @@ display: block;
 }
 
 .container .mouth {
-  position: fixed;
-  top: 46%;
-  left: 35%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: -15%;
+  transform: translate(-50%, -500%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -88,10 +85,9 @@ display: block;
 }
 
 .container .body {
-  position: fixed;
-  top: 40%;
-  left: 55%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 10%;
+  transform: translate(-50%, -600%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -104,10 +100,9 @@ display: block;
 }
 
 .container .snout {
-  position: fixed;
-  top: 35%;
-  left: 34%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: -46%;
+  transform: translate(-50%, -620%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -125,7 +120,7 @@ display: block;
   left: 3%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   font-size: 16px;
   border: none;
@@ -140,17 +135,23 @@ display: block;
 }
 .container .legs:hover {
   background-color: black;
-    border: 2px solid #555555;
+  border: 2px solid #555555;
 }
 .container .mouth:hover {
   background-color: black;
-    border: 2px solid #555555;
+  border: 2px solid #555555;
 }
 .container .body:hover {
   background-color: black;
-    border: 2px solid #555555;
+  border: 2px solid #555555;
 }
 .container .snout:hover {
   background-color: black;
-    border: 2px solid #555555;
+  border: 2px solid #555555;
+}
+
+.container .home:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
 }
