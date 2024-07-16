@@ -40,10 +40,9 @@ display: block;
 }
 
 .container .claws {
-  position: fixed;
-  top: 55%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 30%;
+  transform: translate(-50%, -120%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -56,10 +55,9 @@ display: block;
 }
 
 .container .legs {
-  position: fixed;
-  top: 50%;
-  left: 65%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 63%;
+  transform: translate(-50%, -150%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -72,10 +70,9 @@ display: block;
 }
 
 .container .mouth {
-  position: fixed;
-  top: 47%;
-  left: 31%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: -18%;
+  transform: translate(-50%, -250%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -88,10 +85,9 @@ display: block;
 }
 
 .container .body {
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 10%;
+  transform: translate(-50%, -550%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -104,10 +100,9 @@ display: block;
 }
 
 .container .snout {
-  position: fixed;
-  top: 35%;
-  left: 31%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: -50%;
+  transform: translate(-50%, -370%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555555;
   color: white;
@@ -153,4 +148,10 @@ display: block;
 .container .snout:hover {
   background-color: black;
     border: 2px solid #555555;
+}
+
+.container .home:hover {
+  background-color:black;
+  color: white;
+  border: 2px solid white;
 }
