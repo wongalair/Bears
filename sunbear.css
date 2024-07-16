@@ -151,7 +151,7 @@ display: block;
     border: 2px solid #555555;
 }
 
-.container .home:hover{
+.container .home:hover {
   background-color:black;
   color: white;
   border: 2px solid white;
